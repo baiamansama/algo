@@ -15,3 +15,4 @@ def sorted_squares(arr: []) -> []:
     return res
 
 print(sorted_squares([-3, 2, 4]))
+print(sorted_squares([-3, -1, 1, 3, 5]))
