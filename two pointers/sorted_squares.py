@@ -1,3 +1,4 @@
+# task: given sorted array of integers. output sorted squares of them.
 def sorted_squares(arr: []) -> []:
     l, r = 0, len(arr) - 1
     res = [0] * len(arr)
@@ -16,3 +17,6 @@ def sorted_squares(arr: []) -> []:
 
 print(sorted_squares([-3, 2, 4]))
 print(sorted_squares([-3, -1, 1, 3, 5]))
+
+
+# O(n) -> since we are going once on each element of given array.
